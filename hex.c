@@ -20,9 +20,9 @@ int main(){
 	uint8_t x,y;
       	char buffer[100];
   	int success = 0;
-  	printf("Zadajte operandy v rozsahu 0 - 255: \n");
+  	printf("Enter numbers from range 00-FF: \n");
   	while(success != 1) {
-		printf("Zadajte operand c. 1: \n");
+		printf("Enter number 1: \n");
     		printf("0x");
 		scanf("%s", buffer);
     		success = sscanf(buffer, "%02x", &operand1);
@@ -34,7 +34,7 @@ int main(){
   	}
 	success = 0;
 	while(success != 1) {
-         	printf("Zadajte operand c. 2: \n");
+         	printf("Enter number 2: \n");
     		printf("0x");
 		scanf("%s", buffer);
     		success = sscanf(buffer, "%02x", &operand2);
@@ -48,7 +48,7 @@ int main(){
 	y = operand2;
  	uint8_t result;
 	result = Multiply( x, y );
-        printf("Vysledok: 0x%02x\n", result);
+        printf("Xtime result: 0x%02x\n", result);
 	return 0;
 }
 

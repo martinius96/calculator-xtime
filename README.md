@@ -1,6 +1,6 @@
 # Xtime calculator
 * Two C files for dec or hex format input + output
-* function0xtime() based on AES - bit-shift to left
+* function xtime() based on AES - bit-shift to left
 * if overflow occurs, bulhar's constant 1B is added via the XOR function
 # Translation for Windows under MinGW:
 ```

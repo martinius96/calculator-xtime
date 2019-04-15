@@ -4,13 +4,11 @@
 ```
 gcc dec.c -o dec.exe
 gcc hex.c -o hex.exe
-}
 ```
 # Translation for Linux under GCC:
 ```
 gcc dec.c -o dec
 gcc hex.c -o hex
-}
 ```
 # Usage or DEC:
 ```

@@ -1,3 +1,7 @@
+/*|----------------------------------------------------------|*/
+/*|Author of implementation: Martin Chlebovec                |*/
+/*|Technical University in Košice                            |*/
+/*|----------------------------------------------------------|*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>

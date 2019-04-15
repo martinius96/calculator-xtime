@@ -10,6 +10,12 @@ gcc hex.c -o hex.exe
 gcc dec.c -o dec
 gcc hex.c -o hex
 ```
+# Optional translation:
+```
+make
+or
+make all
+```
 # Usage or DEC:
 ```
 Enter numbers from range 0 - 255:
